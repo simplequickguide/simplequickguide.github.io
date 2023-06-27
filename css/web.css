@@ -1,0 +1,111 @@
+
+@font-face {
+  font-family: "j-icon";
+  src: url('./fonts/j-icon.eot?t=1687832452186'); /* IE9*/
+  src: url('./fonts/j-icon.eot?t=1687832452186#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("./fonts/j-icon.woff2?t=1687832452186") format("woff2"),
+  url("./fonts/j-icon.woff?t=1687832452186") format("woff"),
+  url('./fonts/j-icon.ttf?t=1687832452186') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('./fonts/j-icon.svg?t=1687832452186#j-icon') format('svg'); /* iOS 4.1- */
+}
+
+[class^="i-icon"], [class*="i-icon"] {
+  font-family: 'j-icon' !important;
+  font-size:16px;
+  font-style:normal;
+  color:#fff;
+  -webkit-font-smoothing: antialiased;
+  -moz-osx-font-smoothing: grayscale;
+}
+
+
+.i-contact:before { content: "\ea01"; }
+.i-donate:before { content: "\ea02"; }
+.i-jobs:before { content: "\ea03"; }
+.i-learn:before { content: "\ea04"; }
+.i-resources:before { content: "\ea05"; }
+.i-tools:before { content: "\ea06"; }
+    
+        
+        
+        
+        
+        
+        
+        * {margin:0; padding:0; box-sizing: border-box;}
+        body {font-family:sans-serif; font-size:1em; padding:24px;}
+        a {text-decoration:none;}
+
+
+
+
+
+
+
+
+
+
+        
+        .intro {padding: 0 0 1em; display:flex; flex: 1; gap:1em;
+  flex-direction: column;}
+
+
+
+
+
+
+        .filter {display:flex; gap:1em;}
+
+
+        .btn {background:#ddd; color:#000; font-weight:bold; border-radius:20px; padding:.5em 1em; display:block;}
+        .btn:hover {background:#000; color:#fff;}
+
+        .card.c-tools {background-color:#6ce199;}
+        .card.c-learn {background-color:#f8e46c;}
+        .card.c-resources {background-color:#8a43f6;}
+        .card.c-jobs {background-color:#66c8f9;}
+
+
+
+
+
+
+
+            .content {column-count:3; column-gap:15px;}
+
+
+.card {
+    /* border:#000 solid 2px;
+    box-shadow: 4px 5px 0px 0px #000;*/
+    
+    padding: 1em;
+    margin: 0 0 1.5em;
+    border-radius:16px;
+    
+
+    display: inline-block;
+    width: 100%; 
+    margin-bottom: 15px;
+
+
+
+}
+
+
+
+
+
+
+@media (max-width: 768px) {
+
+    .content {column-count:1;}
+}
+
+
+
+
+
+
+        .icon {background:#f0f; border-radius:50%; width:40px; height:40px; display: block;}
+        .contact {position:fixed; bottom:20px; right:20px; display:flex;}
+        .contact .btn {padding:1em; border-radius:50%;}
