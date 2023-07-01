@@ -1,42 +1,22 @@
 
 
+[class^="icon-"], [class*=" icon-"] {
+  color:#fff;
+  display:inline-block;
+  background-color:#000;
+  font-size:2rem;
+  padding: 0.8rem 1rem;
+  border-radius:50%;
+}
+
+
+
 
 :root {
   --spacing:2rem;
 }
 
 
-
-
-
-@font-face {
-  font-family: "j-icon";
-  src: url('./fonts/j-icon.eot?t=1687832452186'); /* IE9*/
-  src: url('./fonts/j-icon.eot?t=1687832452186#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("./fonts/j-icon.woff2?t=1687832452186") format("woff2"),
-  url("./fonts/j-icon.woff?t=1687832452186") format("woff"),
-  url('./fonts/j-icon.ttf?t=1687832452186') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('./fonts/j-icon.svg?t=1687832452186#j-icon') format('svg'); /* iOS 4.1- */
-}
-
-[class^="i-icon"], [class*="i-icon"] {
-  font-family: 'j-icon' !important;
-  font-size:16px;
-  font-style:normal;
-  color:#fff;
-  -webkit-font-smoothing: antialiased;
-  -moz-osx-font-smoothing: grayscale;
-}
-
-
-.i-contact:before { content: "\ea01"; }
-.i-donate:before { content: "\ea02"; }
-.i-jobs:before { content: "\ea03"; }
-.i-learn:before { content: "\ea04"; }
-.i-resources:before { content: "\ea05"; }
-.i-tools:before { content: "\ea06"; }
-    
-        
         
        
 
@@ -61,7 +41,7 @@ h1 {font-size:2.1rem;}
 
 
         
-        .intro {padding: 0 0 2rem; display:flex; flex: 1; gap:var(--spacing); flex-direction: column;}
+        .intro {padding:1rem 0 var(--spacing); display:flex; flex: 1; gap:1rem; flex-direction: column;}
 
 
 
@@ -71,13 +51,13 @@ h1 {font-size:2.1rem;}
         .filter {display:flex; gap:0.6rem;}
 
 
-        .btn {background:#000; color:#fff; font-weight:bold; border-radius:30px; padding:.5em 1em; display:block;}
+        .btn {background:#000; text-transform:capitalize; color:#fff; font-weight:bold; border-radius:30px; padding:.5em 1em; display:block;}
         .btn:hover {background:#000; color:#fff;}
 
         .card.c-tools {background-color:#75fb4c;}
         .card.c-learn {background-color:#ffff54;}
         .card.c-resources {background-color:#8a43f6;}
-        .card.c-jobs {background-color:#66c8f9;}
+        .card.c-work {background-color:#66c8f9;}
 
 
 
