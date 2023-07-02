@@ -19,23 +19,27 @@
         <h1>Simple • Quick • Guide</h1>
         <p>To help you get started with UX UI Design (software tools, techniques, resources, jobs).</p>
         <div class="filter">
-            <a href="#" class="btn c-tools">tools</a>
-            <a href="#" class="btn c-learn">learn</a>
-            <a href="#" class="btn c-resources">resources</a>
-            <a href="#" class="btn c-work">work</a>
+            <a href="#" class="btn on" data-filter="all">All</a>
+            <a href="#" class="btn" data-filter="tool">tools</a>
+            <a href="#" class="btn" data-filter="learn">learn</a>
+            <a href="#" class="btn" data-filter="resource">resources</a>
+            <a href="#" class="btn" data-filter="job">jobs</a>
         </div>
     </section>
 
+
+   
+
     <section class="content">
-        <div class="card c-tools">
-            <span class="gr"><i class="icon-design"></i></span>
+        <div class="card" data-filter="tool">
+            <span class="gr"><i class="icon-tool"></i></span>
             <h4><a href="https://www.figma.com/downloads/">Figma</a></h4>
             <div class="card-body">
                 Software to create ui designs (desktop, mobile), prototype, share, comment, and collaborate. MacOS, Windows, WebGL
             </div>
         </div>
-        <div class="card c-tools">
-            <span class="gr"><i class="icon-design"></i></span>
+        <div class="card" data-filter="tool">
+            <span class="gr"><i class="icon-tool"></i></span>
             <h4><a href="https://www.sketch.com/downloads/">Sketch</a></h4>
             <div class="card-body">
                 Sketch is a vector graphics editor that is specifically designed for user interface (UI) 
@@ -43,51 +47,43 @@ and user experience (UX) design. It is a popular choice among designers because 
 to use and has a wide range of features. MacOS
             </div>
         </div>
-
-
-
-
-        <div class="card c-work">
-            <span class="gr"><i class="icon-work"></i></span>
+        <div class="card" data-filter="job">
+            <span class="gr"><i class="icon-job"></i></span>
             <h4><a href="https://www.glassdoor.com">Glassdoor</a></h4>
             <div class="card-body">
                 Lorem ipsum dolor sit amet consectetur adipisicing elit. 
                 Veniam quasi deleniti odio,
             </div>
         </div>
-        <div class="card c-work">
-            <span class="gr"><i class="icon-work"></i></span>
+        <div class="card" data-filter="job">
+            <span class="gr"><i class="icon-job"></i></span>
             <h4><a href="https://jobs.google.com/about/">Google Job Search</a></h4>
             <div class="card-body">
                 Job search aggregator
             </div>
-        </div>
-
-        
-   
-        
-        <div class="card c-learn">
+        </div>    
+        <div class="card c-learn" data-filter="learn">
             <span class="gr"><i class="icon-learn"></i></span>
             <h4><a href="https://teamtreehouse.com">Treehouse</a></h4>
             <div class="card-body">
                 Lorem ipsum dolor sit amet
             </div>
         </div>
-        <div class="card c-learn">
+        <div class="card" data-filter="learn">
             <span class="gr"><i class="icon-learn"></i></span>
             <h4><a href="https://www.udemy.com">Udemy</a></h4>
             <div class="card-body">
                 Lorem ipsum dolor sit amet
             </div>
         </div>
-        <div class="card c-learn">
+        <div class="card" data-filter="learn">
             <span class="gr"><i class="icon-learn"></i></span>
             <h4><a href="https://www.udemy.com">Udemy</a></h4>
             <div class="card-body">
                 Lorem ipsum dolor sit amet
             </div>
         </div>
-        <div class="card c-learn">
+        <div class="card" data-filter="learn">
             <span class="gr"><i class="icon-learn"></i></span>
             <h4><a href="https://generalassemb.ly">General Assembly</a></h4>
             <div class="card-body">
@@ -97,56 +93,27 @@ to use and has a wide range of features. MacOS
 
 
 
-        <div class="card c-resources">
-            <span class="gr"><i class="icon-resources"></i></span>
+        <div class="card" data-filter="resource">
+            <span class="gr"><i class="icon-resource"></i></span>
             <h4><a href="https://www.nngroup.com">Nielsen Norman Group</a></h4>
             <div class="card-body">
                 Lorem ipsum dolor sit amet
             </div>
         </div>
-        <div class="card c-resources">
-            <span class="gr"><i class="icon-resources"></i></span>
+        <div class="card" data-filter="resource">
+            <span class="gr"><i class="icon-resource"></i></span>
             <h4><a href="https://www.flaticon.com">Flat Icon</a></h4>
             <div class="card-body">
                 Lorem ipsum dolor sit amet
             </div>
         </div>
-
-        
-
-
-        <!-- <div class="card c-resources">
-            <span class="gr"><i class="icon-resources"></i></span>
-            <h4><a href="#">Txt</a></h4>
-            <div class="card-body">
-                Lorem ipsum dolor sit amet
-            </div>
-        </div> -->
-
-        
-
-
-
-
-
   
-    </section>
+</section>
 
 
 
 <script src="https://ajax.googleapis.com/ajax/libs/jquery/3.7.0/jquery.min.js"></script>
-<script>
-(function(){
-
-    $('.a-').click(function(){
-        $('.card').hide();
-        var txt1 = $(this).text();
-        $('.c-'+txt1).fadeIn(300);
-        return false;
-    });
-
-}());
-</script>
+<script src="js/web.js"></script>
 
 
 
