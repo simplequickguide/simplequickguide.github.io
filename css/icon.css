@@ -1,11 +1,11 @@
 @font-face {
   font-family: "icon";
-  src: url('../fonts/icon.eot?t=1688176812771'); /* IE9*/
-  src: url('../fonts/icon.eot?t=1688176812771#iefix') format('embedded-opentype'), /* IE6-IE8 */
-  url("../fonts/icon.woff2?t=1688176812771") format("woff2"),
-  url("../fonts/icon.woff?t=1688176812771") format("woff"),
-  url('../fonts/icon.ttf?t=1688176812771') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
-  url('../fonts/icon.svg?t=1688176812771#icon') format('svg'); /* iOS 4.1- */
+  src: url('../fonts/icon.eot?t=1688256186225'); /* IE9*/
+  src: url('../fonts/icon.eot?t=1688256186225#iefix') format('embedded-opentype'), /* IE6-IE8 */
+  url("../fonts/icon.woff2?t=1688256186225") format("woff2"),
+  url("../fonts/icon.woff?t=1688256186225") format("woff"),
+  url('../fonts/icon.ttf?t=1688256186225') format('truetype'), /* chrome, firefox, opera, Safari, Android, iOS 4.2+*/
+  url('../fonts/icon.svg?t=1688256186225#icon') format('svg'); /* iOS 4.1- */
 }
 
 [class^="icon-"], [class*=" icon-"] {
@@ -17,9 +17,9 @@
 }
 
 
-.icon-design:before { content: "\ea01"; }
-.icon-email:before { content: "\ea02"; }
+.icon-email:before { content: "\ea01"; }
+.icon-job:before { content: "\ea02"; }
 .icon-learn:before { content: "\ea03"; }
-.icon-resources:before { content: "\ea04"; }
-.icon-work:before { content: "\ea05"; }
+.icon-resource:before { content: "\ea04"; }
+.icon-tool:before { content: "\ea05"; }
 
