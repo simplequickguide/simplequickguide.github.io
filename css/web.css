@@ -48,6 +48,7 @@ h1 {font-size:2.1rem;}
 }
 
   .card .gr {margin-bottom:12px; display:block;}
+  .card a {color:#000; text-decoration:underline;}
   .icon {border-radius:40px; width:40px; height:40px; display: block;}
   .contact {position:fixed; bottom:20px; right:20px; display:flex; gap: 0.6em;}
   .contact .btn { border-radius:40px;}
