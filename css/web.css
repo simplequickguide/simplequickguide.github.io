@@ -48,10 +48,51 @@ h1 {font-size:2.1rem;}
 }
 
   .card .gr {margin-bottom:12px; display:block;}
-  .card a {color:#000; text-decoration:underline;}
+ 
+  .card a {color:#000;}
+  .card a:after {
+    align-self:self-start;
+    font-family: 'icon' !important;
+    font-size: 1rem !important;
+    font-style: normal;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+    content: "\ea05";
+    margin: 0 0 0 .4rem;
+    padding: 0;
+
+
+  }
   .icon {border-radius:40px; width:40px; height:40px; display: block;}
   .contact {position:fixed; bottom:20px; right:20px; display:flex; gap: 0.6em;}
   .contact .btn { border-radius:40px;}
+
+
+
+
+
+
+
+
+/*
+
+a {align-self:self-start;}
+
+.footer-dcr--links a.new-target-image:after {
+font-family: 'bioicons' !important;
+font-size: 1rem !important;
+font-style: normal;
+-webkit-font-smoothing: antialiased;
+-moz-osx-font-smoothing: grayscale;
+content: "\ea05";
+margin: 0;
+padding: 0;
+}
+*/
+
+
+/* .icon-newpage:before { content: "\ea05"; } */
+
 
 
 
