@@ -47,8 +47,8 @@ h1 {font-size:2.1rem;}
   margin-bottom: 30px;
 }
 
-  .card .gr {margin-bottom:12px; display:block;}
- 
+  
+
   .card a {color:#000;}
   .card a:after {
     align-self:self-start;
@@ -63,7 +63,14 @@ h1 {font-size:2.1rem;}
 
 
   }
-  .icon {border-radius:40px; width:40px; height:40px; display: block;}
+  [class^="icon-"], [class*=" icon-"] {
+    border-radius:50%; 
+    width:60px; height:60px; 
+    margin-bottom:1rem;
+    display: flex;
+    align-items: center;
+    justify-content: center;
+  }
   .contact {position:fixed; bottom:20px; right:20px; display:flex; gap: 0.6em;}
   .contact .btn { border-radius:40px;}
 
